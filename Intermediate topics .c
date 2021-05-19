@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//functions
 void newPrint(char*char1)
 {
     printf("The value is %s\n",char1);
@@ -35,7 +36,7 @@ int main()
     }
     
  
-    
+        //pointers
         int a=98;
         printf("%d\n",a);
         int* ptr;
@@ -53,11 +54,11 @@ int main()
         printf("%d",a); 
      
 
-    
+        //copy, concatenate, compare
         char name[3]={'m','y','\0'};
         char str1[65],str2[98],str3[32];
         strcpy(str1,name);
-        strcpy(str2,"rohan");
+        strcpy(str2,"naveen");
         strcat(str1,str2);
         printf("%d",strcmp(str1,str2));
         printf("%s",str1);
