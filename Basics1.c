@@ -26,8 +26,8 @@ int main()
    printf("The size of float is %d\n",sizeof(float));
    printf("The size of char is %d\n",sizeof(char));
 
-   int harryName; //This is variable declaration
-   harryName=76; //This is variable initialization
+   int aviName; //This is variable declaration
+   aviName=76; //This is variable initialization
    char five='5'; //This is variable declaration and initializaton
    const int i=9; //you will get an error if you try to change the value 
    
@@ -44,8 +44,8 @@ int main()
    //printf("The pre increment of a1 is %d\n",++a1); //increments before printing
    printf("The post increment of a1 is %d\n",a1++); //increments after printing
 
-   int harry=9, rohan=45;
-   printf("%d\n",harry==rohan);
+   int avi=9, roshan=45;
+   printf("%d\n",avi==roshan);
 
    int h=0, j=1;
    printf("logical operation returns %d\n",h&&j);
@@ -69,7 +69,9 @@ int main()
    printf("Please enter the value of aInput\n");
    scanf("%d",&aInput);
    printf("You entererd %f as aInput\n",(float)aInput); //typecasting
-
+   
+    
+   //if-else
    int age;
    printf("Enter your age \n");
    scanf("%d",&age);
@@ -87,14 +89,16 @@ int main()
    }
    int i4=age>3?100:200; //short hand if else
    printf("%d",i4);
-
+   
+    //while loop
    int index=0;
    while(index<10)
    {
       printf("%d\n",index);
       index++;
    }
-
+    
+   //for loop
    for (int j = 0; j < 67; j++)
    {
       printf("%d\n",j);
